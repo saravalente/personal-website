@@ -91,15 +91,15 @@ html {
 
 @font-face {
   font-family: 'Circular Air Light';
-  src: url('Circ/Circular Air-Light.ttf');
+  src: url('assets/fonts/Circular/Circular Air-Light.ttf');
 }
 @font-face {
   font-family: 'Circular Air Medium';
-  src: url('Circ/Circular Air-Medium.ttf');
+  src: url('assets/fonts/Circular/Circular Air-Medium.ttf');
 }
 @font-face {
   font-family: 'Circular Air Book';
-  src: url('Circ/Circular Air-Book.ttf');
+  src: url('assets/fonts/Circular/Circular Air-Book.ttf');
 }
 
 img:hover{
