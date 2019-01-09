@@ -1,6 +1,6 @@
 body {
 	margin: auto;
-	font-family:'Circular Air Light';
+	font-family:'Circular Air Light', sans-serif;
 	background-color: #2D4057;
 	color: #FA9483;
 	font-size: 1.3rem;
@@ -12,7 +12,7 @@ body {
 }*/
 
 .title {
-	font-family:'Circular Air Medium';
+	font-family:'Circular Air Medium', sans-serif;
 	font-size: 3rem;
 	text-align: left;
 	line-height: 4.5rem;
@@ -24,7 +24,7 @@ body {
 }
 
 .stick-title {
-	font-family:'Circular Air Medium';
+	font-family:'Circular Air Medium', sans-serif;
 	font-size: 2.7rem;
 	text-align: left;
 	line-height: 4.5rem;
@@ -95,15 +95,18 @@ html {
 
 @font-face {
   font-family: 'Circular Air Light';
-  src: url('../fonts/Circular/Circular Air-Light.ttf');
+  src: url('/assets/fonts/circularairlight.ttf') format('truetype'),
+       url('/assets/fonts/circularairlight.woff') format('woff');
 }
 @font-face {
   font-family: 'Circular Air Medium';
-  src: url('../fonts/Circular/Circular Air-Medium.ttf');
+  src: url('/assets/fonts/circularairmedium.ttf') format('truetype'),
+       url('/assets/fonts/circularairmedium.woff') format('woff');
 }
 @font-face {
   font-family: 'Circular Air Book';
-  src: url('../fonts/Circular/Circular Air-Book.ttf');
+  src: url('/assets/fonts/circularairbook.ttf') format('truetype'),
+       url('/assets/fonts/circularairbook.woff') format('woff');
 }
 
 img:hover{
